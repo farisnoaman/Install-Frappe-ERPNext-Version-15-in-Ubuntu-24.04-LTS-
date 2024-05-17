@@ -148,6 +148,11 @@ Now press (Ctrl-X) to exit
 ### STEP 12 install python environment
     sudo apt install python3-virtualenv
     
+### installing pipx 
+      sudo apt update
+      sudo apt install pipx
+      pipx ensurepath
+      sudo pipx ensurepath --global
 
 ### Step 13 install frappe-bench
 
