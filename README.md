@@ -32,9 +32,9 @@ A complete Guide to Install Frappe/ERPNext version 15  in Ubuntu 24.04 LTS
 
     sudo apt-get install python3-setuptools python3-pip
 
-### STEP 4 Install virtualenv
+### STEP 4 Install virtualenv (3.10)
     
-    sudo apt install python3.11-venv
+    sudo apt install python3.10-venv
     
 
 ### STEP 5 Install MariaDB
