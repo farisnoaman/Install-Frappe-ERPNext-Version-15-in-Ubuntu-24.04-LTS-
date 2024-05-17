@@ -148,29 +148,29 @@ Now press (Ctrl-X) to exit
 ### STEP 12 install python environment
     sudo apt install python3-virtualenv
     
-### installing pipx 
+### STEP 13 installing pipx 
       sudo apt update
       sudo apt install pipx
       pipx ensurepath
       sudo pipx ensurepath --global
 
-### Step 13 install frappe-bench
+### Step 14 install frappe-bench
 
     sudo pipx install frappe-bench
 
-### Step 14 create virtual environment for frappe
+### Step 15 create virtual environment for frappe
     
     virtualenv frappe-bench
     source frappe-bench/bin/activate
     
-### STEP 15 initilise the frappe bench & install frappe latest version 
+### STEP 16 initilise the frappe bench & install frappe latest version 
 
     bench init frappe-bench --frappe-branch version-15
     
     cd frappe-bench/
     bench start
     
-### STEP 16 create a site in frappe bench 
+### STEP 17 create a site in frappe bench 
     
     bench new-site sitename.local
     
@@ -179,7 +179,7 @@ Now press (Ctrl-X) to exit
 Open url http://sitename.local:8000 to login 
 
 
-### STEP 17 install ERPNext latest version in bench & site
+### STEP 18 install ERPNext latest version in bench & site
 
     
     bench get-app erpnext --branch version-15
